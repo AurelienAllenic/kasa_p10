@@ -1,5 +1,6 @@
 import React from 'react';
 import imageHome from '../assets/src_home.jpg';
+import "./homeHeader.css";
 
 const HomeHeader = () => {
   return (
