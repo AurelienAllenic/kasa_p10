@@ -8,15 +8,16 @@ nav{
     justify-content: space-between;
     gap: 2em;
     width: 100%;
-    margin: 0 10px 0 10px;
+    margin: 0 6% 0 6%;
 }
 .logo{
     display: flex;
-    margin-left: 5%;
+    padding-top: 5%;
+    width: 70%;
 }
 .linkItem{
     color: #ff5f61;
-    font-size: 35px;
+    font-size: 1.5em;
     text-decoration: none;
 }
 .linkItem:hover{

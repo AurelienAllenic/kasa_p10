@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%; /* Update to 80% to make the container take up 80% of the width of the page */
+    width: 85%; /* Update to 80% to make the container take up 80% of the width of the page */
     margin: 2% auto; /* Adjust margin to center the container horizontally */
     position: relative;
   }
