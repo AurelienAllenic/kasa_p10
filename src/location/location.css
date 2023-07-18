@@ -27,7 +27,7 @@ justify-content: flex-start;
 }
 .selected_location{
     padding-top: 1%;
-    padding-bottom: 10%;
+    padding-bottom: 1%;
 }
 .location_tags{
 background-color: #ff5f61;
@@ -82,10 +82,5 @@ height: 5em;
     width: 80%;
     gap: 3em;
     margin-bottom: 10%;
-}
-.block_test{
-    background-color: grey;
-    height: 450px;
-    margin: 0 10% 0 10%;
 }
 

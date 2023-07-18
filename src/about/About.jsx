@@ -4,6 +4,7 @@ import Nav from '../nav/Nav'
 import DropdownTextAbout from '../DropdownText/DropdownTextAbout'
 import '../DropdownText/dropdownText.css'
 import imageAbout from "../assets/about.jpg"
+import Footer from '../footer/Footer'
 
 const About = () => {
   return (
@@ -37,6 +38,7 @@ const About = () => {
 
 
 </section>
+<Footer />
     </>
   )
 }

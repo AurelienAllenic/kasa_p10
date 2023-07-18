@@ -6,6 +6,7 @@ import { AiFillStar } from 'react-icons/ai';
 import './location.css';
 import DropdownText from '../DropdownText/DropdownText';
 import Caroussel from '../carousel/Carousel';
+import Footer from '../footer/Footer';
 
 const Location = () => {
   const { id } = useParams();
@@ -77,6 +78,7 @@ const Location = () => {
 
         </article>
       </section>
+      <Footer />
     </>
   );
 };
