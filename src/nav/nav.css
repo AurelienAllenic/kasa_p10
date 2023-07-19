@@ -34,9 +34,6 @@ nav{
     text-decoration: underline;
 }
 @media (max-width: 832px){
-    .linkItem{
-        font-size: 25px;
-    }
     .logo{
         display: flex;
         margin-left: 5%;

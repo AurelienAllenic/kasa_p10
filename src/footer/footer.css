@@ -1,18 +1,21 @@
-.logo_footer{
+/* footer.css */
+.logo_footer {
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.container_footer{
+  }
+  
+  .container_footer {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     flex-direction: column;
     margin-top: 2%;
-}
-footer {
+  }
+  
+  footer {
     background-color: black;
     margin-top: 5%;
     text-align: center;
@@ -21,23 +24,28 @@ footer {
     align-items: center;
     justify-content: center;
   }
-  .content_footer{
+  
+  .content_footer {
     color: white;
     font-size: 1.7em;
     white-space: nowrap;
   }
-  @media (max-width: 382px){
-    .content_footer{
-        font-size: 1.3em;
-      }
+  
+  @media (max-width: 382px) {
+    .content_footer {
+      font-size: 1.3em;
+    }
   }
-  @media (max-width: 302px){
-    .content_footer{
-        font-size: 1.1em;
-      }
+  
+  @media (max-width: 302px) {
+    .content_footer {
+      font-size: 1.1em;
+    }
   }
-  @media (max-width: 256px){
-    .content_footer{
-        font-size: 0.9em;
-      }
+  
+  @media (max-width: 256px) {
+    .content_footer {
+      font-size: 0.9em;
+    }
   }
+  

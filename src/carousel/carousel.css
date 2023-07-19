@@ -18,11 +18,11 @@
 }
 .carousel{
     padding: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 6%;
+    margin-right: 6%;
     height: auto;
     min-height: 30em;
-    width: 80%;
+    width: 100%;
     margin-bottom: 2%;
 }
 .carousel:hover{
@@ -60,6 +60,7 @@
     object-fit: cover;
     width: auto;
     filter: brightness(90%);
+    border-radius: 10px;
 }
 
 .carousel_arrow_left, .carousel_arrow_right{
@@ -91,180 +92,70 @@
     opacity: 1;
     font-size: 90px;
 }
-@media screen and (max-width: 1473px){
-    .cc-white{
-        font-size: 1.5em;
-        margin-top: 2%;
-    }
-    .title_project{
-        margin-top: 5%;
-    }
-    .carousel_pagination{
-        gap: 0.6em;
-    }
-    .card_image{
-        height: 550px;
-    }
-}
-@media screen and (max-width: 1311px){
-    .card_content, .cc-white{
-        font-size: 25px;
-    }
-    .carousel{
-        min-height: 50em;
-    }
-}
-@media screen and (max-width: 1168px){
-    .card_content, .cc-white{
-        font-size: 20px;
-        margin-bottom: 2%;
-    }
-    .carousel_arrow_left, .carousel_arrow_right{
-        height: 30px;
-        width: 30px;
-        font-size: 30px;
-    }
-}
-@media screen and (max-width: 1012px){
-    .carousel_arrow_left, .carousel_arrow_right{
-        font-size: 25px;
-        height: 25px;
-        width: 25px;
-    }
-    .cc-white{
-        font-size: 18px;
-    }
+@media (max-width: 1030px){
     .card_image{
         height: 400px;
     }
     .carousel{
-        min-height: 40em;
+        min-height: 25em;
     }
 }
-@media screen and (max-width: 851px){
-    .carousel_arrow_right, .carousel_arrow_left{
-        height: 25px;
-        width: 25px;
-        font-size: 25px;
-    }
-    .card_content{
-        font-size: 20px;
-    }
-    .carousel{
-        min-height: 35em;
-    }
-    .title_project{
-        font-size: 30px;
-    }
-    .carousel_pagination{
-        margin-top: 3%;
-    }
-    .card_image{
-        height: 350px;
-    }
-}
-@media screen and (max-width: 693px){
-    .card_content, .cc-white{
-        font-size: 17px;
-    }
-    .card_image{
-        height: 300px;
-    }
-}
-@media screen and (max-width: 607px){
+@media (max-width: 502px){
     .card_image{
         height: 300px;
     }
     .carousel{
-        min-height: 32em;
+        min-height: 18em;
     }
-    .carousel_arrow_right, .carousel_arrow_left{
-        top: 45%;
+    .carousel_arrow_left {
+        left: 10px;
+        height: 60px;
+        width: 60px;
+        font-size: 60px;
     }
-    .pagination_dot{
-        height: 10px;
-        width: 10px;
+    .carousel_arrow_right{
+        right: 10px;
+        height: 60px;
+        width: 60px;
+        font-size: 60px;
     }
+}
+@media (max-width: 410px){
     .card_image{
-        margin-bottom: 0.2%;
+        height: 250px;
     }
+    .carousel{
+        min-height: 14em;
     }
-    @media screen and (max-width: 414px) and (max-height: 915px){
-        .carousel_arrow_right, .carousel_arrow_left{
-            height: 17px;
-            width: 17px;
-            font-size: 17px;
-        }
-        .carousel_pagination{
-            gap: 0.4em;
-        }
-        .cc-white{
-            font-size: 15px;
-        }
-     }
-    @media screen and (max-width: 414px) and (max-height: 736px){
-        .carousel_arrow_right, .carousel_arrow_left{
-            height: 17px;
-            width: 17px;
-            font-size: 17px;
-        }
-     }
-     @media screen and (max-width: 414px){
-        .carousel{
-            min-height: 28em;
-        }
-     }
-@media screen and (max-width: 391px){  
-    .card_image{
-        height: 200px;
-    }
-    .carousel_arrow_left, .carousel_arrow_right{
-        height: 10px;
-        width: 10px;
-    }
-    .carousel_arrow_left{
+    .carousel_arrow_left {
         left: 5px;
+        height: 50px;
+        width: 50px;
+        font-size: 50px;
     }
     .carousel_arrow_right{
         right: 5px;
-    }
-    .title_project{
-        font-size: 22px;
-    }
-    .carousel {
-        min-height: 23em;
+        height: 50px;
+        width: 50px;
+        font-size: 50px;
     }
 }
-@media screen and (max-width: 290px){
-    .title_project{
-        font-size: 1.2em;
-    }
-    .cc-white{
-        font-size: 1em;
-    }
-}  
-@media screen and (max-width: 260px){  
-    .card_content{
-        margin-left: 5px;
-    }
-    .card-title{
-        margin-left: 5px;
-    }
-    .title_project{
-        font-size: 1em;
-    }
-    .cc-white{
-        font-size: 0.8em;
+@media (max-width: 326px){
+    .card_image{
+        height: 200px;
     }
     .carousel{
-        min-height: 22em;
+        min-height: 12em;
+    }    .carousel_arrow_left {
+        left: 0px;
+        height: 40px;
+        width: 40px;
+        font-size: 40px;
     }
-}
-@media screen and (max-width: 225px){  
-    .title_project{
-        font-size: 0.8em;
-    }
-    .cc-white{
-        font-size: 0.6em;
+    .carousel_arrow_right{
+        right: 0px;
+        height: 40px;
+        width: 40px;
+        font-size: 40px;
     }
 }
