@@ -48,6 +48,7 @@
     transition: 0.5s ease-in-out;
     padding-bottom: 7%;
     flex-direction: column;
+    
 }
 .carousel_card-active{
     opacity: 1;
@@ -62,7 +63,15 @@
     filter: brightness(90%);
     border-radius: 10px;
 }
-
+.carousel_numbering{
+    position: absolute;
+    bottom: 120px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
 .carousel_arrow_left, .carousel_arrow_right{
     position: absolute;
     opacity: 0.9;
@@ -92,6 +101,11 @@
     opacity: 1;
     font-size: 90px;
 }
+@media (max-width: 1350px){
+    .carousel_numbering{
+        bottom: 90px;
+    }
+}
 @media (max-width: 1030px){
     .card_image{
         height: 400px;
@@ -100,9 +114,25 @@
         min-height: 25em;
     }
 }
+@media (max-width: 950px){
+    .carousel_numbering{
+        bottom: 70px;
+        font-size: 30px;
+    }
+}
+@media (max-width: 762px){
+    .carousel_numbering{
+        bottom: 55px;
+        font-size: 25px;
+    }
+}
 @media (max-width: 502px){
     .card_image{
         height: 300px;
+    }
+    .carousel_numbering{
+        bottom: 40px;
+        font-size: 20px;
     }
     .carousel{
         min-height: 18em;
@@ -138,6 +168,12 @@
         height: 50px;
         width: 50px;
         font-size: 50px;
+    }
+}
+@media (max-width: 372px){
+    .carousel_numbering{
+        bottom: 25px;
+        font-size: 20px;
     }
 }
 @media (max-width: 326px){

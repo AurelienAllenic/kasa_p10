@@ -60,7 +60,7 @@
     line-height: 1.6em;
   }
   
-  @media (max-width: 611px){
+  @media (max-width: 600px){
     .dropdown_content_about {
       font-size: 1em;
     }
@@ -69,6 +69,7 @@
     }
     .container_dropdown_about {
       width: 100%;
+      margin: 2% 10% 2% 10%;
     }
     .container_dropdowns{
       width: 100%;

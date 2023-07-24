@@ -5,12 +5,25 @@
     min-height: 60vh;
     gap: 1em;
 }
-@media (max-width: 555px){
+@media (max-width: 890px){
+    .selections_about{
+        gap: 4em;
+    }
+}
+@media (max-width: 600px){
     .selections_about{
         min-height: 65vh;
     }
+    .selections_about{
+        gap: 6em;
+    }
 }
-@media (max-width: 323px){
+@media (max-width: 408px){
+    .selections_about{
+        min-height: 70vh;
+    }
+}
+@media (max-width: 346px){
     .selections_about{
         min-height: 70vh;
     }
