@@ -135,14 +135,6 @@ height: 5em;
         gap: 1em;
     }
 }
-@media (max-width: 366px){
-    .stars svg{
-        font-size: 1.2em;
-    }
-    .location_host{
-        font-size: 1em;
-    }
-}
 @media (max-width: 414px){
     .stars svg{
         font-size: 1.3em;
@@ -154,6 +146,27 @@ height: 5em;
         font-size: 1.2em;
         width: 90%;
         margin-top: 4%;
+    }
+    .selected_location{
+        min-height: 40vh;
+    }
+}
+@media (max-width: 383px){
+    .selected_location{
+        min-height: 45vh;
+    }
+}
+@media (max-width: 366px){
+    .stars svg{
+        font-size: 1.2em;
+    }
+    .location_host{
+        font-size: 1em;
+    }
+}
+@media (max-width: 326px){
+    .selected_location{
+        min-height: 50vh;
     }
 }
 @media (max-width: 312px){

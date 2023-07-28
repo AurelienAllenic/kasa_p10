@@ -32,6 +32,7 @@
   color: white;
   font-weight: bold;
   font-size: 1.9em;
+  animation: arrowAnim 0.7s ease forwards;
 }
 
 .container_arrow svg:hover {
@@ -61,6 +62,7 @@
   list-style: none;
   line-height: 1.6em;
   min-height: 10em;
+  animation: dropdownAnim 0.7s ease forwards;
 }
 
 @media (max-width: 846px){

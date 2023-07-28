@@ -20,7 +20,7 @@ const DropdownText = ({ datas, type }) => {
           <span className='container_title_arrow'>
             <h1 className='dropdown_title'>{title}</h1>
             <span className='container_arrow'>
-              {showContent ? <BsChevronUp onClick={toggleContent}/> : <BsChevronDown onClick={toggleContent}/>}
+              {showContent ? <BsChevronDown onClick={toggleContent}/> : <BsChevronUp onClick={toggleContent}/>}
             </span>
           </span>
           {type === 'description' && showContent && <p className='dropdown_content'>{content}</p>}

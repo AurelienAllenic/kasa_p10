@@ -47,9 +47,14 @@
 @media (max-width: 630px){
     .locations_section {
         grid-template-columns: 1fr;
+        background-color: transparent;
     }
     .content-single-location {
       font-size: 20px;
+    }
+    .card-single-location{
+      padding: 0%;
+      margin: 2% 0 2% 0;
     }
 }
 @media (max-width: 388px){

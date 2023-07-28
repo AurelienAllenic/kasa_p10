@@ -1,11 +1,12 @@
 /* error.css */
-#error {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+[id=error] {
+    position: relative;
+    min-height: 65vh;
     color: #ff5f61;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
   }
   
   .container_error {
@@ -13,7 +14,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 80vh;
+
   }
   
   .main-title-error {
@@ -24,8 +25,7 @@
   .container-return-error {
     display: flex;
     justify-content: center;
-    position: fixed;
-    bottom: 0;
+    align-items: center;
     width: 100%;
   }
   
@@ -48,22 +48,57 @@
     text-decoration: none;
     color: #ff5f61;
   }
-  @media (max-width: 590px){
-    .main-title-error {
-        font-size: 12em;
-      }
-      .subtitle_error {
-        font-size: 1.5em;
-      }
+  @media (max-width: 808px){
+    .container_error{
+      margin-top: 10%;
+    }
+    .main-title-error{
+      font-size: 12em;
+    }
+    .subtitle_error{
+      font-size: 1.5em;
+    }
   }
-  @media (max-width: 414px){
-    .main-title-error {
-        font-size: 10em;
-      }
-      .subtitle_error {
-        font-size: 1.2em;
-      }
-      .return-error{
-        font-size: 1em;
-      }
+  @media (max-width: 586px){
+    .container_error{
+      margin-top: 20%;
+    }
+    .main-title-error{
+      font-size: 10em;
+    }
+    .subtitle_error{
+      font-size: 1.2em;
+    }
+    .return-error{
+      font-size: 1em;
+    }
+  }
+  @media (max-width: 436px){
+    .container_error{
+      margin-top: 35%;
+    }
+    .main-title-error{
+      font-size: 8em;
+    }
+    .subtitle_error{
+      font-size: 1em;
+      width: 90%;
+      margin: 0 5% 0 5%;
+    }
+    .return-error{
+      font-size: 0.8em;
+    }
+  }
+  @media (max-width: 466px){
+    #error{
+      min-height: 75vh;
+    }
+  }
+  @media (max-width: 276px){
+    .main-title-error{
+      font-size: 5em;
+    }
+    .container_error{
+      margin-top: 75%;
+    }
   }

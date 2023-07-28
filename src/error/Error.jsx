@@ -15,6 +15,7 @@ const Error = () => {
             <h3 className='return-error'><a href="/" className='link_error'>Retourner sur la page d'accueil</a></h3>
         </article>
       </section>
+      <Footer />
     </>
   )
 }

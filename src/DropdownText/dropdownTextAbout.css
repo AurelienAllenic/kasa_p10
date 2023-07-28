@@ -1,3 +1,19 @@
+@keyframes arrowAnim {
+  from{
+    transform: rotate(0deg);
+  }to{
+    transform: rotate(180deg);
+  }
+}
+@keyframes dropdownAnim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .container_title_arrow_about {
     display: flex;
     justify-content: space-between;
@@ -25,6 +41,7 @@
     color: white;
     font-weight: bold;
     font-size: 1.9em;
+    animation: arrowAnim 0.7s ease forwards;
   }
 
   
@@ -58,6 +75,7 @@
     border-radius: 5px;
     list-style: none;
     line-height: 1.6em;
+    animation: dropdownAnim 1s ease-out forwards;
   }
   
   @media (max-width: 600px){
