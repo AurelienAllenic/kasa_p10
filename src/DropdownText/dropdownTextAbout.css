@@ -21,7 +21,7 @@
     background-color: #ff5f61;
     border-radius: 10px;
     width: 100%;
-    padding: 1% 2% 1% 1.5%;
+    padding: 10px 15px 10px 15px;
   }
   
   .container_arrow_about {
@@ -95,6 +95,9 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
+    }
+    .container_title_arrow_about {
+      width: 95%;
     }
   }
   @media (max-width: 509px){

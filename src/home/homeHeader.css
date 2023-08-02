@@ -48,7 +48,7 @@
     left: 25%;
     }
     .img_header_home {
-        max-height: 150px;
+        max-height: 240px;
     }
     .first_part_content_header_home{
         white-space: nowrap;
@@ -62,15 +62,9 @@
         .content_home_header {
             font-size: 25px;
         }
-        .img_header_home {
-            max-height: 130px;
-        }
     }
     @media (max-width: 310px){
         .content_home_header {
             font-size: 20px;
-        }
-        .img_header_home {
-            max-height: 110px;
         }
     }
